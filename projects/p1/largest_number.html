@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+
+        
+
+
+        <script type=text/javascript>
+  
+         //var n1 = 2;
+        // var n2 = 3;
+         //var n3 = 4;
+
+         //var r = Math.max(n1,n2,n3);
+         //console.log(r);
+
+         function check(p,q,r){
+            if(p>=q && p>=r){
+                return p ;
+            }
+            else if(q>=p && q>=r){
+                return q;
+            }
+            else{
+                return r;
+            }
+         }
+
+         var a = parseInt(prompt("enter",""));
+         var b = parseInt(prompt("enter",""));
+         var c = parseInt(prompt("enter",""));
+         var o = check(a,b,c);
+         console.log(o+"is bigger");
+
+        </script>
+    </body>
+</html>

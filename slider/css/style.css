@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 400px;
+    width: 60%;
+    box-shadow: 0 0 3px green;
+    margin-top: 400px;
+    margin: auto;
+}

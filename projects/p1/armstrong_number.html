@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Multiplication Table</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+       
+
+        <script type="text/javascript">
+         
+            var n = parseInt(prompt("enter a number ",""));
+            var temp = n;
+            var totaldigits = n.toString().length;
+            var sum = 0;
+
+            while(temp > 0){
+
+                var digit = temp%10;
+                sum = sum + digit**totaldigits;
+                console.log(sum);
+                var temp = parseInt(temp/10);
+                console.log(temp);
+
+            }
+
+            if(sum == n){
+                console.log(`${n} is an armstrong`);
+            }
+            else{
+                console.log("not a armstrong");
+            }
+
+        </script>
+
+    </body>
+</html>
